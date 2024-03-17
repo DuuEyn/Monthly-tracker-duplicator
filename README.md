@@ -155,7 +155,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ian Dewaine Diche - iddiche@gmail.com
+DuuEyn - iddiche@gmail.com
 
 Project Link: [https://github.com/DuuEyn/Monthly-tracker-duplicator](https://github.com/DuuEyn/Monthly-tracker-duplicator)
 
@@ -175,7 +175,7 @@ Project Link: [https://github.com/DuuEyn/Monthly-tracker-duplicator](https://git
 [issues-shield]: https://img.shields.io/github/issues/DuuEyn/Monthly-tracker-duplicator.svg?style=for-the-badge
 [issues-url]: https://github.com/DuuEyn/Monthly-tracker-duplicator/issues
 [license-shield]: https://img.shields.io/github/license/DuuEyn/Monthly-tracker-duplicator.svg?style=for-the-badge
-[license-url]: https://github.com/DuuEyn/Monthly-tracker-duplicator/blob/master/LICENSE.txt
+[license-url]: https://github.com/DuuEyn/Monthly-tracker-duplicator/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ian-dewaine-diche-69406a2bb
 [menu-screenshot]: resources/BoundScript.png
