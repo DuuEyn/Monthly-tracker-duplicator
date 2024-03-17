@@ -68,10 +68,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This script is intended to automate the copying of a monthly tracker or log from a template. 
-Dates are automatically added and the sheet is resized whenever the script is executed.
+Dates are automatically added and extra rows are removed from the copy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,34 +86,29 @@ Dates are automatically added and the sheet is resized whenever the script is ex
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* The script must be bound to a Google Sheets file. 
+* There should be an existing template in the sheets file that the script can copy.
+* The script assumes that the name of the spreadsheet file starts with [YYYY ...
+* If needed, a specific year can be specified on this variable:
+```sh
+var newDate = new Date(`${newMonth} 1, ${newYear.slice(1,5)}`)
+```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/DuuEyn/Monthly-tracker-duplicator
-.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+2. Open the target Google Spreadsheet, click `Extensions` on the menu then click `Apps Script`
+   
+3. Copy the script in the `createNewTracker.gs` file and paste it in Apps Script
+4. Click Save and refresh the target sheet.
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -123,9 +116,10 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+In order to execute the script, the user just needs to click `Custom` on the menu bar and click `New Monthly Tracker`. The user would then have to enter a valid month.
+The script will create a copy of the template and populate it with dates based on the month the user entered.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
