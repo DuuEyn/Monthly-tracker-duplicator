@@ -27,7 +27,7 @@
     <br />
     <br />
     <a href="https://github.com/DuuEyn/Monthly-tracker-duplicator
-">View Demo</a>
+">View Repo</a>
     ·
     <a href="https://github.com/DuuEyn/Monthly-tracker-duplicator
 /issues">Report Bug</a>
@@ -105,7 +105,7 @@ var newDate = new Date(`${newMonth} 1, ${newYear.slice(1,5)}`)
    git clone https://github.com/DuuEyn/Monthly-tracker-duplicator
    ```
 2. Open the target Google Spreadsheet, click `Extensions` on the menu then click `Apps Script`
-   
+   ![Menu Screen Shot][menu-screenshot]
 3. Copy the script in the `createNewTracker.gs` file and paste it in Apps Script
 4. Click Save and refresh the target sheet.
    
@@ -119,7 +119,7 @@ var newDate = new Date(`${newMonth} 1, ${newYear.slice(1,5)}`)
 In order to execute the script, the user just needs to click `Custom` on the menu bar and click `New Monthly Tracker`. The user would then have to enter a valid month.
 The script will create a copy of the template and populate it with dates based on the month the user entered.
 
-
+![Project Demo][project-demo]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +177,8 @@ Project Link: [https://github.com/DuuEyn/Monthly-tracker-duplicator](https://git
 [license-shield]: https://img.shields.io/github/license/DuuEyn/Monthly-tracker-duplicator.svg?style=for-the-badge
 [license-url]: https://github.com/DuuEyn/Monthly-tracker-duplicator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/ian-d-69406a2bb
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/ian-dewaine-diche-69406a2bb
+[menu-screenshot]: resources/BoundScript.png
+[project-demo]: resources/ScriptDemo.gif
 [gas.js]: https://img.shields.io/badge/Google%20Apps%20Script-4A4A55?style=for-the-badge&logo=googleappsscript&logoColor=white
 [gas-url]: https://www.google.com/script/start/
